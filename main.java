@@ -16,7 +16,10 @@ public class main {
 
 
         // Agregamos los usuarios
+        Admin user1 = new Admin("Andres", "Calle 3 sur # 4G - 72", 1022771023);
 
+        User usuario1 = new User();
+        usuario1.addUser(user1);
 
 
     }
