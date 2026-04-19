@@ -11,6 +11,6 @@
 ----------------------------------
 
 ### Realizado por:
- - Andrez Baez
+ - Andres Baez
  - Angelo Morales
  - Brandon Román
