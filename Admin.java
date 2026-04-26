@@ -1,11 +1,19 @@
-public class Admin extends User {
+public class Admin extends Usuario {
 
-    public Admin(String name, String address, int id){
-        this.name = name;
-        this.address = address;
-        this.id = id;
+    private Inventario inventario;
+
+    public Admin(String nombre, int id, String direccion, Inventario inv){
+        super(nombre, id, direccion);
+        this.inventario = inv;
     }
 
-    private void addUser(){
+    @Override
+    public void imprimirRol(){
+        System.out.println("Has iniciado como adminsitrador");
+    }
+
+    public void realizarVenta(String nombreProd, int cantidad){
+        System.out.println("Admin " + this.nombre + " procesando venta...");
+        inventario.actualizarStock(nombreProd, cantidad);
     }
 }
