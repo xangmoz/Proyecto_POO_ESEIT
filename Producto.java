@@ -52,7 +52,6 @@ public class Producto {
 
     public void setNombreProducto(String nombre) {
         // .trim() quita los espacios al inicio y al final.
-        // Ejemplo: "  soda  " se convierte en "soda".
         if (nombre != null && !nombre.trim().isEmpty()) {
             this.nombreProducto = nombre.trim();
         } else {

@@ -16,7 +16,4 @@ public abstract class Usuario {
 
     public abstract void imprimirRol();
 
-    public String getNombre(){
-        return nombre;
-    }
 }

@@ -1,6 +1,6 @@
 package Parcial2;
 
-public class Pedidos {
+public class Pedido {
     // 1 Atributos
     private int idPedido;
     private Cliente cliente; 
