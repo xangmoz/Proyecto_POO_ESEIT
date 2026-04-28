@@ -8,6 +8,7 @@ public class main {
 
        Jose.añadirProducto();
 
+       // Cambiar al manera de actualizar los datos
        Jose.realizarVenta("lentejas", 7);
 
     }
