@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45a7c7d2-c497-48c0-83e1-0bb06c06e90b" name="Changes" comment="Cambios de Admin, Inventario, Producto y Usuario. Se crea una herencia entre Usuario y Admin e igual se renombran las clases y métodos a español. Las propiedades del constructor en Propducto, son métodos que pueden ser cambiados a través de setters por el administrador.">
+      <change beforePath="$PROJECT_DIR$/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Angelo Morales &lt;160273645+xangmoz@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DANBaez23&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xangmoz/Proyecto_POO_ESEIT.git&quot;,
+    &quot;accountId&quot;: &quot;b3dfc3a1-fa09-453f-b75d-8430b4fa1440&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3CY9JuPUW6ewvz9a8Ekgz1HDsLJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/andresbaez/Documents/ESEIT/4toSemestre/POO_1/corte2/Proyecto_POO_ESEIT"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a7c7d2-c497-48c0-83e1-0bb06c06e90b" name="Changes" comment="" />
+      <created>1776551567781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776551567781</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Se suben todas las clases creadas">
+      <option name="closed" value="true" />
+      <created>1776551823326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776551823326</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se suben todas las clases creadas">
+      <option name="closed" value="true" />
+      <created>1776551866916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776551866916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nuevo cambio en main">
+      <option name="closed" value="true" />
+      <created>1776552218428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776552218428</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cambios de Admin, Inventario, Producto y Usuario. Se crea una herencia entre Usuario y Admin e igual se renombran las clases y métodos a español. Las propiedades del constructor en Propducto, son métodos que pueden ser cambiados a través de setters por el administrador.">
+      <option name="closed" value="true" />
+      <created>1777243115483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777243115484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se agrega usuario" />
+    <MESSAGE value="Se suben todas las clases creadas" />
+    <MESSAGE value="Nuevo cambio en main" />
+    <MESSAGE value="Cambios de Admin, Inventario, Producto y Usuario. Se crea una herencia entre Usuario y Admin e igual se renombran las clases y métodos a español. Las propiedades del constructor en Propducto, son métodos que pueden ser cambiados a través de setters por el administrador." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios de Admin, Inventario, Producto y Usuario. Se crea una herencia entre Usuario y Admin e igual se renombran las clases y métodos a español. Las propiedades del constructor en Propducto, son métodos que pueden ser cambiados a través de setters por el administrador." />
+  </component>
+</project>

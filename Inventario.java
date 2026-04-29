@@ -16,15 +16,18 @@ public class Inventario {
         System.out.println("Producto agregado");
     }
 
-    public void listarProductos() {
-        if (listaProductos.isEmpty()) {
-            System.out.println("--- LISTA DE INVENTARIO---");
-        }
-
+    public void eliminarProducto(String nombre) {
         for (Producto p : listaProductos) {
-            p.consultar();
+            if (p.getNombreProducto().equalsIgnoreCase(nombre)) {
+                listaProductos.remove(p);
+
+                System.out.println("Producto " + nombre + " eliminado");
+                return;
+            }
         }
+        System.out.println("Producto no encontrado.");
     }
+
 
     public void actualizarStock(String nombre, int nuevaCantidad) {
         for (Producto p : listaProductos) {
@@ -38,5 +41,13 @@ public class Inventario {
         System.out.println("Producto no encontrado.");
     }
 
-}
+    public void listarProductos() {
+        if (listaProductos.isEmpty()) {
+            System.out.println("--- LISTA DE INVENTARIO---");
+        }
 
+        for (Producto p : listaProductos) {
+            p.consultar();
+        }
+    }
+}

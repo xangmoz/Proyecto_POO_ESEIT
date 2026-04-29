@@ -16,12 +16,6 @@ public class Admin extends Usuario {
         System.out.println("Has iniciado como adminsitrador" + nombre);
     }
 
-    public void realizarVenta(String nombreProd, int cantidad){
-        System.out.println("Admin " + this.nombre + " procesando venta...");
-
-        inventario.actualizarStock(nombreProd, cantidad);
-    }
-
     public void añadirProducto() {
         System.out.println("--- Registro de Nuevo Producto ---");
         System.out.print("Nombre: ");
@@ -39,4 +33,26 @@ public class Admin extends Usuario {
         // Entrega el producto al inventario
         inventario.añadirProducto(nuevo);
     }
+
+    public void eliminarProducto(){
+        System.out.println("Que elemento deseas elimnar");
+        System.out.println("Nombre: ");
+        String nom = teclado.nextLine();
+
+        inventario.eliminarProducto(nom);
+    }
+
+    public void realizarVenta(String nombreProd, int cantidad){
+        System.out.println("Admin " + this.nombre + " procesando venta...");
+
+        inventario.actualizarStock(nombreProd, cantidad);
+    }
+
+    public void consultarPedidos(){
+        inventario.listarProductos();
+    }
+
+
+
+
 }
