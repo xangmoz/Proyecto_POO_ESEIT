@@ -28,7 +28,6 @@ public class Inventario {
         System.out.println("Producto no encontrado.");
     }
 
-
     public void actualizarStock(String nombre, int nuevaCantidad) {
         for (Producto p : listaProductos) {
             if (p.getNombreProducto().equalsIgnoreCase(nombre)) {
@@ -49,5 +48,14 @@ public class Inventario {
         for (Producto p : listaProductos) {
             p.consultar();
         }
+    }
+
+    public Producto buscarProducto(String nombre) {
+        for (Producto p : listaProductos) {
+            if (p.getNombreProducto().equalsIgnoreCase(nombre)) {
+                return p;
+            }
+        }
+        return null;
     }
 }
