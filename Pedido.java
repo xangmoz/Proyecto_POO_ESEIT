@@ -18,7 +18,7 @@ public class Pedido {
 
     public int agregarCarrito(DetalleVenta detalle) {
         listaDetalles.add(detalle);
-        System.out.println("Prodcuto agrega al carrito");
+        System.out.println("Producto agregado al carrito");
         return 0;
     }
 
