@@ -20,6 +20,10 @@ public class main {
                 case 3: jefe.realizarVenta(); break;
                 case 4: opcion = 4; break;
                 default: System.out.println("Opción no valida.");
+
+                    tienda.añadirProducto(new Producto("Manzana", "fruta", 50, 1500));
+                    tienda.añadirProducto(new Producto("Leche", "lácteo", 30, 3200));
+                    tienda.añadirProducto(new Producto("Pan", "panadería", 20, 2500));
             }
         }
 
