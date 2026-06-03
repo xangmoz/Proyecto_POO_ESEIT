@@ -7,7 +7,7 @@ public class Vender {
         for(DetalleVenta detalle : pedido.getListaDetalle()) {
             totalFinal += detalle.getSubtotal();
         }
-        System.out.println("Venta confirmda por un total de: $" + totalFinal);
+        System.out.println("Venta confirmada por un total de: $" + totalFinal);
         System.out.println("¡Gracias por su compra!");
     }
 }
