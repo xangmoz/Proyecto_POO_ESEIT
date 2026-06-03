@@ -13,7 +13,7 @@ public class Admin extends Usuario {
 
     @Override
     public void imprimirRol(){
-        System.out.println("Has iniciado como adminsitrador" + nombre);
+        System.out.println("Has iniciado como administrador" + nombre);
     }
 
     // Metodo para añadir prodcuto
@@ -49,7 +49,7 @@ public class Admin extends Usuario {
 
             if(producto.getStock() >= cantidad){
                 producto.setStock(producto.getStock() - cantidad);
-                System.out.println("Venta reazlizada con éxito.");
+                System.out.println("Venta realizada con éxito.");
             }else {
                 System.out.println("No hay suficiente stock.");
             }
