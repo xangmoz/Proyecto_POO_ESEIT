@@ -41,8 +41,10 @@ public class Inventario {
     }
 
     public void listarProductos() {
+        System.out.println("--- LISTA DE INVENTARIO---");
+
         if (listaProductos.isEmpty()) {
-            System.out.println("--- LISTA DE INVENTARIO---");
+
         }
 
         for (Producto p : listaProductos) {
