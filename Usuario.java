@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public abstract class Usuario {
     protected String nombre;
     protected int idUsuario;
