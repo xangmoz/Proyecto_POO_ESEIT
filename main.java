@@ -1,8 +1,6 @@
-import java.lang.classfile.instruction.SwitchCase;
-
 public class main {
 
-      static void main(String[] args){
+      public static void main(String[] args){
         Inventario tienda = new Inventario();
         Admin jefe = new Admin("Jose", 123, "direccion", tienda);
 
