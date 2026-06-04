@@ -5,9 +5,6 @@ public class Pedido {
     private int idPedido;
     private ArrayList<DetalleVenta> listaDetalles;
 
-    // Asociación dirigida hacia Producto
-    private Producto producto;
-
     // 2 Constructor
     public Pedido(int idPedido) {
         this.idPedido = idPedido;
